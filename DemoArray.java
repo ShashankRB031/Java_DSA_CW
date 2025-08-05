@@ -2,7 +2,7 @@ class ArrayExample {
     void array() {
         int[] ages = new int[3];
         float[] weights = new float[3];
-        String[] names = new String[3];
+        String[] names = {"Ken Mile", "Leo", "Veera"};
 
         ages[0] = 20;
         ages[1] = 22;
@@ -13,6 +13,10 @@ class ArrayExample {
         System.out.println(ages[0]);
         System.out.println(ages[1]);
         System.out.println(ages[2]);
+
+        System.out.println(names[0]);
+        System.out.println(names[1]);
+        System.out.println(names[2]);
     }
 }
 
